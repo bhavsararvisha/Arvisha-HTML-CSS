@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+body{
+    background: #f4f4f4;
+    color: #333; 
+}
+.nav{
+    width: 100%;
+    background: #222;
+    position: sticky;
+    top: 0;
+} 
+.navi{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navi li{
+    margin: 15px 25px;
+}
+.navi a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navi a:hover{
+    color: orange;
+}
+.page{
+    min-height: 100vh;
+    padding: 80px 50px;
+    text-align: center;
+}
+.page h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ec77fc;
+}
+.page p{
+    max-width: 800px;
+    margin: auto;
+    font-size: 20px;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.contact-form{
+    width: 420px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form textarea{
+    resize: none;
+}
+.contact-form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background: #0077cc;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background: #005fa3;
+}
+.map{
+    width: 500px;
+    height: 450px;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+}
+.ftr{
+    background: #222;
+    text-align: center;
+    padding: 20px;
+}
+.ftr a{
+    color: white;
+    font-size: 32px;
+    margin: 0 15px;
+    transition: .3s;
+}
+.ftr i{
+    font-size: 35px;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-instagram:hover{
+    color: #E1306C;
+}
+.fa-facebook:hover{
+    color: #1877F2;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
